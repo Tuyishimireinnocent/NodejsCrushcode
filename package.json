@@ -1,0 +1,14 @@
+{
+  "name": "nodejsbeginner",
+  "version": "1.0.0",
+  "description": "node.js crash course code",
+  "main": "App.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
