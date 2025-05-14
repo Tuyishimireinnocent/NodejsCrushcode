@@ -5,7 +5,7 @@
   "main": "App.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon --env-file=.env server.js"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/Tuyishimireinnocent/NodejsCrushcode/issues"
   },
-  "homepage": "https://github.com/Tuyishimireinnocent/NodejsCrushcode#readme"
+  "homepage": "https://github.com/Tuyishimireinnocent/NodejsCrushcode#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
 }
