@@ -1,14 +1,21 @@
 {
   "name": "nodejsbeginner",
   "version": "1.0.0",
-  "description": "node.js crash course code",
+  "description": "node js",
   "main": "App.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tuyishimireinnocent/NodejsCrushcode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tuyishimireinnocent/NodejsCrushcode/issues"
+  },
+  "homepage": "https://github.com/Tuyishimireinnocent/NodejsCrushcode#readme"
 }
